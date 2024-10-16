@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{font-family: "Montserrat", sans-serif;}
+
+
+a{
+    text-decoration: none !important; 
+}
+
+
+
+#menu{
+    font-size: 18px;
+}
+
+
+/* Colors */
+
+.bg-yellow{background-color: #FEE372;}
+.bg-orange{background-color: #FFCF91;}
+.bg-services{background-color: #4FC0FA;}
+.bg-content{background-color: #dddddd;}
+.bg-communication{background-color: #8D5A3B;}
+
+
+
+/* Banners */
+
+#mainBanner{background-image: url(../img/hotel-main-banner-1500x807.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;}
+#aboutBanner{background-image: url(../img/hakkimizda-hotel-banner-1600x330.webp);}
+#communicationBanner{background-image: url(../img/hotel-iletisim-banner-1600x330.webp);}
+#blogPage{background-image: url(../img/hotel-blog-banner-1600x330.webp);}
+#suitRoom{background-image: url(../img/suit-oda-banner-1600x330.webp);}
+#familyRoom{background-image: url(../img/aile-oda-banner-1600x330.webp);}
+#panoramicRoom{background-image: url(../img/panoramik-oda-banner-1600x330.webp);}
+#galleryPage{background-image: url(../img/hotel-galeri-banner-1600x330.webp);}
+#communicaitonPage{background-image: url(../img/bg-communication-form-1600x700.webp);}
+
+
+
+
+  
+#services h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+    .banner{
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+.margin{
+    margin-top: 300px;
+}
+
+
+#topFooter a  {
+    font-size: 35px;
+    color: #000;
+}
+
+.bi-emoji-smile-fill, .bi-house-fill , .bi-wifi , .bi-water {
+    font-size: 40px;
+    color: #FFCF91;
+}
+.bi-check-lg , .titleRoom{
+    color: #008000;
+}
+
+#galleryModal .img-fluid:hover{
+    cursor: pointer;
+}
+
+
+
+#blogList .col-md-3 a{
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+}
+
+
+
+/* Responsive Design*/
+
+@media(max-width:768px){
+      
+        #services .col-md-4{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #aboutUs .col-md-6 , #satisFaction .col-md-3{
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+
+        #galleryModal .col-md-4{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        #blogList .col-md-4 , #blogList .col-md-8 , #blogList .col-md-3{
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            
+        }
+
+        
+
+
+        #roomFeatures .col-md-2 , .titleRoom , #roomContact .col-md-9 , #roomContact .col-md-3{
+            width: 100%;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+
+        #communicaitonPage .col-md-6{
+            width: 100%;
+            margin-bottom: 15px;
+        } 
+
+        #cardCommunication .col-md-6{
+            width: 80%;
+            margin-left: 50px;
+            margin-bottom: 25px;
+           
+        }
+     
+        
+}
+
+
+
+
+
+
+
